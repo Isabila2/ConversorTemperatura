@@ -1,13 +1,12 @@
 // Importando View, Text e Touchable
 import { View, TouchableOpacity } from "react-native";
-// Importando os componentes
+// Importando os componentes TxtComponent, styles e TxtInputComponent
 import TxtComponent from "./src/components/TxtComponent";
 import styles from "./src/styles/StyleSheet";
 import TxtInputComponent from "./src/components/TxtInputComponent";
 // Importando o useState e o Modal
 import React, { useState } from "react";
 import { Modal } from "react-native";
-import Imagem from "./src/components/ImagesComponent";
 
 export default function App() {
   // As variáveis que serão usadas para a conta e para abrir o modal

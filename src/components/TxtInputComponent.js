@@ -1,5 +1,5 @@
 import { TextInput } from "react-native";
-// Todos os props
+// Todos os props para o TextInput
 export default function TxtInputComponent({
   legenda,
   styleInput,
